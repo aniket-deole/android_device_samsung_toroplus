@@ -30,3 +30,6 @@ BOARD_INVENSENSE_APPLY_COMPASS_NOISE_FILTER := true
 
 # libsec-ril_lte.so is broke due to a missing symbol in surfacecomposerclient
 TARGET_TOROPLUS_RADIO := true
+
+TARGET_KERNEL_SOURCE := kernel/samsung/toroplus
+TARGET_KERNEL_CONFIG := tuna_defconfig
